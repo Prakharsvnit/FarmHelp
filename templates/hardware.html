@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<div class = "post_style post-preview">
+    
+        <div class="jumbotron jumbotron-fluid">
+
+          <div class="container">
+
+            <table class="table">
+    <thead>
+        <tr>
+            <th>Hardware</th>
+            <th>Buying_cost(Rs)</th>
+            <th>Rent_cost(Rs/hr)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tractor</td>
+            <td>6,00,000</td>
+            <td> 800</td>
+            <td><a class="btn btn-primary btn-lg" href="#">Edit</a></td>
+            <td><a class="btn btn-primary btn-lg" href="#">Delete</a></td>
+        </tr>
+        <tr>
+            <td>Thresher</td>
+            <td>3,00,000</td>
+            <td>300</td>
+            <td><a class="btn btn-primary btn-lg" href="#">Edit</a></td>
+            <td><a class="btn btn-primary btn-lg" href="#">Delete</a></td>
+        </tr>
+        <tr>
+            <td>Land-leveller</td>
+            <td>2,00,000</td>
+            <td>500</td>
+            <td><a class="btn btn-primary btn-lg" href="#">Edit</a></td>
+            <td><a class="btn btn-primary btn-lg" href="#">Delete</a></td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+
+      </div>
+      <a  class="btn btn-primary btn-lg" href="#">Add</a>
+{% endblock %}

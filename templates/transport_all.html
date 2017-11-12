@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<div class = "post_style post-preview">
+    
+        <div class="jumbotron jumbotron-fluid">
+
+          <div class="container">
+
+            <table class="table">
+    <thead>
+        <tr>
+            <th>Vehicle</th>
+            <th>Rent(Rs/km)</th>
+        </tr>
+    </thead>
+    <tbody>
+       <tr>
+            <td >Ape Van</td>
+            <td>50</td>
+            <td><a class="btn btn-primary btn-lg" href="/edit_vehicle">Edit</a></td>
+        </tr>
+        <tr>
+            
+            {% for post in posts %}
+            <tr>
+                <td>{{ post.name}}</td>
+                <td>{{ post.rent }}</td>
+                <td><a class="btn btn-primary btn-lg" href="/edit_vehicle">Edit</a></td>
+            </tr>
+            {% endfor %}
+    </tbody>
+   </table>
+        </div>
+
+
+      </div>
+
+<a  class="btn btn-primary btn-lg" href="/add_vehicle">Add</a>
+
+
+{% endblock %}

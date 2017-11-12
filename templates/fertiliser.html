@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBHK9CebEIRHJVwhUv_86Sa0p2rvc8DkD0",
+    authDomain: "farm-help.firebaseapp.com",
+    databaseURL: "https://farm-help.firebaseio.com",
+    projectId: "farm-help",
+    storageBucket: "farm-help.appspot.com",
+    messagingSenderId: "826440032643"
+  };
+  firebase.initializeApp(config);
+$(window).load(finction(){
+    run app.py
+});
+</script>
+<div class = "post_style post-preview">
+    
+        <div class="jumbotron jumbotron-fluid">
+
+          <div class="container">
+
+            <table class="table">
+    <thead>
+        <tr>
+            <th>Fertiliser</th>
+            <th>Price(Rs/kg)</th>
+            <th>Stock(kg)</th>
+            <th>Chemical_composition(%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>D.A.P</td>
+            <td>55</td>
+            <td>150</td>
+            <td>Nitrogen(18),Phosphorus(46)</td>
+            <td><a class="btn btn-primary btn-lg" href="#">Edit</a></td>
+        </tr>
+        <tr>
+            <td>Urea</td>
+            <td>16</td>
+            <td>200</td>
+            <td>Nitrogen(46)</td>
+            <td><a class="btn btn-primary btn-lg" href="#">Edit</a></td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+
+      </div>
+      <a  class="btn btn-primary btn-lg" href="#">Add</a>
+{% endblock %}
