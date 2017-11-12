@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "826440032643",
+    "firebase_url": "https://farm-help.firebaseio.com",
+    "project_id": "farm-help",
+    "storage_bucket": "farm-help.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826440032643:android:8667f25475421efd",
+        "android_client_info": {
+          "package_name": "com.hackinfinity.farmhelp_serviceprovider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826440032643-d2km3qfbe55ud0uab13e0h3341emao8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZi_zZIHQGhPpDXQLLqN-FDjygycQvTgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826440032643:android:fa664912b7aff4ef",
+        "android_client_info": {
+          "package_name": "hackinfinity.com.farmhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826440032643-d2km3qfbe55ud0uab13e0h3341emao8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZi_zZIHQGhPpDXQLLqN-FDjygycQvTgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
